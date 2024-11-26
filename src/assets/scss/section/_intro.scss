@@ -1,5 +1,6 @@
 #intro {
     height: 100vh;
+    background-color: blue;
 }
 .intro__inner {
     width: 100%;
@@ -39,7 +40,7 @@
         position: relative;
 
         .text {
-            font-size: 3vw;
+            font-size: 3.5vw;
             line-height: 1;
             font-weight: 900;
             text-transform: uppercase;
@@ -49,7 +50,7 @@
             z-index: 100;
             transition: all 0.3s;
             cursor: all-scroll;
-
+            line-height: 1.5;
             @media (max-width: 800px){ 
                 font-size: 24px;
             }

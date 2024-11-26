@@ -6,7 +6,7 @@ const siteText = [
         text: ["Community", "CrowdFunding", "WebSite"], // 사이트 설명의 세 부분을 배열로 나눠서 저장합니다.
         title: "커뮤니티 중심 크라우드 펀딩 사이트", // 프로젝트의 제목입니다.
         code: "https://github.com/ParkYeseulzz/JavachipPrjt_01", // 코드 저장소 링크입니다.
-        view: "https://port2023-vite.netlify.app", // 사이트 실시간 보기 링크입니다.
+        view: "https://parkyeseul.tistory.com/46", // 사이트 실시간 보기 링크입니다.
         info: [
             "site coding", // 프로젝트 정보
             "production period : 2024/08/14 - 2024/08/29", // 제작 기간
@@ -16,8 +16,8 @@ const siteText = [
     {
         text: ["Public DATA", "Travel Places and Travel Records", "Sharing Community Service"],
         title: "공공데이터 활용 여행지 추천 및 여행 기록 공유 커뮤니티 서비스",
-        code: "https://github.com/ParkYeseulzz/javachip02_mvc",
-        view: "https://port2023-react.netlify.app",
+        code: "https://github.com/ParkYeseulzz/BBOL_BBOL_BBOL.git",
+        view: "https://parkyeseul.tistory.com/47",
         info: [
             "site coding",
             "production period : 2024/10/07 - 2024/11/05",

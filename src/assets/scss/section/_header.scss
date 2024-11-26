@@ -1,11 +1,17 @@
 #header {
     @include position-fixed; // 헤더를 페이지의 상단 고정. position: fixed;를 믹스인을 통해 재사용 가능
-    z-index: 10000; // 헤더가 다른 요소들 위에 나타나도록 z-index 값을 높게 설정
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    font-family: 'Pretendard'; // 헤더 전용 폰트 적용
+    font-weight: 800;
 }
 
 .header__inner {
     @include flex-between; // flexbox 레이아웃을 사용하여 자식 요소들을 좌우로 정렬하고, 공간을 고르게 분배
-    background-color: rgba(116, 99, 99, 0.1); // 헤더의 배경색을 반투명하게 설정
+    background-color: blue; // 헤더의 배경색을 반투명하게 설정
     backdrop-filter: blur(15px); // 배경 뒤의 내용을 흐릿하게 보여주는 블러 효과를 적용
     padding: 1rem; // 헤더 내부에 여백을 추가
 

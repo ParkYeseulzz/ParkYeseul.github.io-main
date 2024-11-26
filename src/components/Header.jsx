@@ -44,7 +44,7 @@ const Header = () => {
                 {/* 로고를 표시하는 div입니다. */}
                 <div className="header__logo">
                     {/* 로고에 대한 링크를 설정합니다. 클릭 시 홈페이지로 이동합니다. */}
-                    <a href="/">portfolio<em>vite</em></a>
+                    <a href="/">portfolio</a>
                 </div>
 
                 {/* 네비게이션 메뉴를 정의하는 nav 요소입니다. 

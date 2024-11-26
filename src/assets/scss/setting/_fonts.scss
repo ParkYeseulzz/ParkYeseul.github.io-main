@@ -2,6 +2,13 @@
 @import url("https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css");
 @import url("https://websfont.github.io/gmarket/gmarket.css");
 
+
+/* Pretendard-Regular 추가 */
+@font-face {
+    font-family: 'Pretendard'; /* 폰트 이름 정의 */
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff'); /* 폰트 파일 경로 */
+}
+
 .mont {
     font-family: "Montserrat";
 }
@@ -10,4 +17,8 @@
 }
 .gmarket {
     font-family: "gmarket";
+}
+
+.pretendard {
+    font-family: "Pretendard-Regular"; /* Pretendard */
 }
