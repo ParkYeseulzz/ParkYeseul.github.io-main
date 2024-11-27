@@ -10,10 +10,9 @@
         font-size: 4vw;
         font-weight: 900;
         line-height: 1.6;
-        font-family: var(--mainKor-font);
+        font-family: Pretendard-bold;
         text-transform: uppercase;
-        color: var(--black100);
-        border-bottom: 0.4vw solid var(--black100);
+           color: #ffffff;
         margin-bottom: 100px;
 
         @media (max-width: 800px){ 
@@ -28,8 +27,11 @@
 
         em {
             font-size: 1.25rem;
-            font-weight: 400;
+            font-weight: 900;
             line-height: 2;
+            font-family: Pretendard-bold;
+            text-transform: uppercase;
+            color: #ffffff;
         }
     }
     .site__wrap {
@@ -41,7 +43,7 @@
             left: 0;
 
             &.s1 {
-                background-color: var(--subBg100);
+                background-color: #c122c7;
                 top: 180px;
 
                 @media (max-width: 800px){ 
@@ -49,7 +51,7 @@
                 }
             }
             &.s2 {
-                background-color: var(--subBg200);
+                background-color: #00f5ff;
                 top: 200px;
 
                 @media (max-width: 800px){ 
@@ -57,7 +59,7 @@
                 }
             }
             &.s3 {
-                background-color: var(--subBg300);
+                background-color: #8dff3c;
                 top: 220px;
 
                 @media (max-width: 800px){ 
@@ -65,7 +67,7 @@
                 }
             }
             &.s4 {
-                background-color: var(--subBg400);
+                background-color: #0000ff;
                 top: 240px;
 
                 @media (max-width: 800px){ 
