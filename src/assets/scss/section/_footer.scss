@@ -1,5 +1,14 @@
 #footer {
     font-family: var(--mainKor-font);
+    color: #ffffff; /* 모든 텍스트를 흰색으로 지정 */
+}
+#footer a {
+    color: #ffffff; /* 링크 텍스트도 흰색으로 지정 */
+    text-decoration: none; /* 필요에 따라 밑줄 제거 */
+}
+
+#footer em {
+    color: #ffffff; /* em 태그의 텍스트도 흰색으로 지정 */
 }
 .footer__inner {
     padding: 16px;
@@ -7,8 +16,8 @@
     .footer__text {
         font-size: 12px;
         text-transform: uppercase;
-        border-top: 1px solid var(--black);
-        border-bottom: 1px solid var(--black);
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
         display: flex;
         justify-content: space-between;
     }
@@ -61,16 +70,16 @@
             }
 
             h3 {
-                border-top: 2px solid var(--black);
+                border-top: 2px solid #ffffff;
                 font-size: 10px;
                 margin-bottom: 40px;
                 padding-top: 10px;
             }
             ul {
-                border-top: 1px solid var(--black);
+                border-top: 1px solid #ffffff;
 
                 li {
-                    border-bottom: 1px solid var(--black);
+                    border-bottom: 1px solid #ffffff;
 
                     a {
                         padding: 14px 0;

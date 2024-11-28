@@ -9,7 +9,7 @@
     align-items: flex-start;
     justify-content: flex-end;
     flex-direction: column;
-
+    color: white;
     @media (max-width: 800px){ 
         justify-content: center;
     }
@@ -30,7 +30,7 @@
     .contact__text {
         width: 100%;
         height: 40vh;
-        background-color: #32d440;
+        background-color: #d5ed5b;
         color: var(--white);
         display: flex;
         align-items: center;
@@ -64,7 +64,7 @@
             display: block;
             width: 100%;
             height: 1px;
-            background-color: var(--black);
+            background-color: #ffffff;
             margin-bottom: 0.5vw;
 
             &:nth-child(1){
